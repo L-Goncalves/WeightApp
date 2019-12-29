@@ -10,6 +10,6 @@ Type the pounds and it'll convert to Kilos, Grams and Ounces, you can also click
 
 # What I learned with this
 
-I learned how to apply styles to children of a class, and more about if's and else's.
+I learned how to apply styles to children of a class, and more about if's and else's statements.
 
 How to hide a whole div if it doesn't listen to an event with visibility.
