@@ -5,7 +5,7 @@ This is an Application that converts Pounds to Ounces, Kilos and Grams.
 # How to use
 It's really simple, just use a Web live server that opens a localhost tab on your main browser.
 
-Type the pounds and it'll convert to Kilos, Grams and Ounces, you can also click in the number to see another 4 decimals number for a more precise convertion.
+Type the pounds and it'll convert to Kilos, Grams and Ounces, you can also click in the number converted to see another 4 decimals number for a more precise convertion.
 
 
 # What I learned with this
