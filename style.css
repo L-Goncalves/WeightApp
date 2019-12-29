@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-bottom: 170px;
+    background: linear-gradient(rgb(6, 222, 255), rgb(6, 139, 255));
+    color: white !important;
+    font-family: 'Montserrat', sans-serif !important;
+    overflow: hidden;
+    
+}
+
+#ozOutput, #GOutput, #KGOutput{
+    cursor: pointer;
+}
+
+h1{
+    
+    font-weight: 100 !important;
+}
+
+.card h4{
+    margin-left: 10px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+.card, .cardblock{
+    
+    margin-bottom: 10px;
+    color: #ffffff  !important;
+    background-color: rgb(19, 172, 255) !important;
+    
+    
+}
+
+
+.form-control, .form-control:focus {
+    border-radius: 8px !important;
+    color: #000000  !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-color: #008efa !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(195, 255, 0, 0.276) !important;
+}

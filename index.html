@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weight Converter</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Styles
+         Style.css and then Boostrap Styles-->
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Scripts
+         Jquery 3.3.1, Popper.js, Bootstrap 4.3.1 and main.js-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+   <!-- Font -->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h1 class="display-4 text-center mb-2">
+                    Weight Converter
+                </h1>
+                <form>
+
+                    <div class="form-group">
+                        <label>Pounds:</label>
+                        <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds here...">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card">
+                        <div class="cardblock">
+                            <h4>G:</h4>
+                            <div id="GOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="cardblock">
+                            <h4>KG:</h4>
+                            <div id="KGOutput"></div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="cardblock">
+                            <h4>Oz:</h4>
+                            <div id="ozOutput"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-2">
+                
+            </div>
+
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+
+</html>
